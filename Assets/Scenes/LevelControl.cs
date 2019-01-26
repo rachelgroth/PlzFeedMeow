@@ -18,5 +18,9 @@ public class LevelControl : MonoBehaviour
     {
         SceneManager.LoadScene(LevelName);
     }
-
+    public void EndGame()
+    {
+       Debug.Log("Quit the Game");
+        Application.Quit();
+    }
 }

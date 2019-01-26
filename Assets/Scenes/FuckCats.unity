@@ -2249,7 +2249,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: MainMenu
+    stringVal: YouWin
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &1739104202
@@ -2455,6 +2455,21 @@ MonoBehaviour:
     vector3Val: {x: 0.25, y: 0, z: 0}
   space: 1
   offsetOLD: {x: 0, y: 0, z: 0}
+--- !u!114 &1739104209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739104165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c784b19efbe8424fa879e0d6d883281, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 108
+  indentLevel: 0
+  loadingImage: {fileID: 0}
 --- !u!114 &1739104211
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2586,7 +2601,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 350.66104
     y: -27.18357
-    width: 205
+    width: 190.29846
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2595,7 +2610,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1739104244}
+  - {fileID: 1739104209}
 --- !u!114 &1739104216
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3498,25 +3513,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1739104244
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1739104165}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 104
-  indentLevel: 0
-  _sceneName:
-    stringRef: {fileID: 0}
-    stringVal: MainMenu
-  loadingImage: {fileID: 0}
-  sceneNameOLD: 
 --- !u!1001 &1750836208
 PrefabInstance:
   m_ObjectHideFlags: 0

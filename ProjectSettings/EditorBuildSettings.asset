@@ -10,5 +10,8 @@ EditorBuildSettings:
     guid: 6c5308232dec5bc4d93d79ed35417c1f
   - enabled: 1
     path: Assets/Scenes/NameTheCat.unity
-    guid: ed54cf61c176f6d4fb9e96dd1cee1983
+    guid: 1007fbdf3eb3244088015ada3e0bfaa4
+  - enabled: 1
+    path: Assets/Scenes/overworld-ish.unity
+    guid: 9318258fe47cb4b409660b4ae4fdc33e
   m_configObjects: {}

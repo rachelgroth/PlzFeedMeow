@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/overworld-ish.unity
     guid: 9318258fe47cb4b409660b4ae4fdc33e
+  - enabled: 1
+    path: Assets/Scenes/RPGTesting.unity
+    guid: 90c440cde7504654e90e348011b98a14
   m_configObjects: {}

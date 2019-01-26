@@ -844,11 +844,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 467082, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.8
+      value: 16.7
       objectReference: {fileID: 0}
     - target: {fileID: 467082, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 64.6
+      value: 64.4
       objectReference: {fileID: 0}
     - target: {fileID: 467082, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1101,8 +1101,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 67
-    y: 72
+    x: 68
+    y: 71
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1113,6 +1113,22 @@ MonoBehaviour:
   eventHandler: {fileID: 647241990}
   commandList:
   - {fileID: 647241993}
+--- !u!58 &647241988
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647241982}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: 5a05bfcb10e8c0e4da63ebcc23179ef4, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!114 &647241990
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1142,13 +1158,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: You notice a couple a particularly fat and delicious looking bird that
-    your next owner might appreciate as an offering. You should chase after it!
+  storyText: You notice a particularly fat and delicious looking bird that your next
+    owner might appreciate as an offering. You should chase after it!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
-  showAlways: 1
+  showAlways: 0
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
@@ -1390,7 +1406,7 @@ MonoBehaviour:
   character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
-  showAlways: 1
+  showAlways: 0
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
@@ -1398,6 +1414,18 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &864193598 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a,
+    type: 3}
+  m_PrefabInstance: {fileID: 431242755}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864193592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &864193599
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1412,7 +1440,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 293
+    x: 294
     y: 162
     width: 120
     height: 40
@@ -1424,6 +1452,22 @@ MonoBehaviour:
   eventHandler: {fileID: 864193596}
   commandList:
   - {fileID: 864193597}
+--- !u!58 &864193600
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864193592}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: 5a05bfcb10e8c0e4da63ebcc23179ef4, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.00000047683716}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &912903171
 GameObject:
   m_ObjectHideFlags: 1
@@ -1453,7 +1497,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 53095156}
+  selectedFlowchart: {fileID: 864193598}
 --- !u!4 &912903173
 Transform:
   m_ObjectHideFlags: 1
@@ -1506,11 +1550,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4678101578738422, guid: 9fcc19129e8193e4b881c1bdc4b9814d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -49.8
+      value: -79.13
       objectReference: {fileID: 0}
     - target: {fileID: 4678101578738422, guid: 9fcc19129e8193e4b881c1bdc4b9814d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 91.5
+      value: 83.17
       objectReference: {fileID: 0}
     - target: {fileID: 4678101578738422, guid: 9fcc19129e8193e4b881c1bdc4b9814d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1538,11 +1582,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4678101578738422, guid: 9fcc19129e8193e4b881c1bdc4b9814d, type: 3}
       propertyPath: m_LocalScale.y
-      value: 6.392586
+      value: 16.687845
       objectReference: {fileID: 0}
     - target: {fileID: 4678101578738422, guid: 9fcc19129e8193e4b881c1bdc4b9814d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 27.684744
+      value: 11.516853
       objectReference: {fileID: 0}
     - target: {fileID: 114034257819947328, guid: 9fcc19129e8193e4b881c1bdc4b9814d,
         type: 3}
@@ -1557,7 +1601,7 @@ PrefabInstance:
     - target: {fileID: 114534288108544306, guid: 9fcc19129e8193e4b881c1bdc4b9814d,
         type: 3}
       propertyPath: nodeRect.x
-      value: 97
+      value: 98
       objectReference: {fileID: 0}
     - target: {fileID: 114534288108544306, guid: 9fcc19129e8193e4b881c1bdc4b9814d,
         type: 3}
@@ -2282,11 +2326,11 @@ PrefabInstance:
       objectReference: {fileID: 1778912497}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: blockName
-      value: F*ckinTRASH
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: nodeRect.width
-      value: 125
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: description
@@ -2458,7 +2502,7 @@ MonoBehaviour:
   character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
-  showAlways: 1
+  showAlways: 0
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
@@ -2507,6 +2551,22 @@ MonoBehaviour:
   eventHandler: {fileID: 1756026219}
   commandList:
   - {fileID: 1756026218}
+--- !u!58 &1756026222
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756026214}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: 5a05bfcb10e8c0e4da63ebcc23179ef4, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000009536743}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &1778912490 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 142980, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a,
@@ -2519,6 +2579,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1752683926}
   m_PrefabAsset: {fileID: 0}
+--- !u!58 &1778912493
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778912490}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: 5a05bfcb10e8c0e4da63ebcc23179ef4, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!114 &1778912496
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2548,13 +2624,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: '''Hmmm... garbage'' you play with garbage for a bit and get bored quickly.
-    You clean yourself and move on.'
+  storyText: '''Hmmm... that''s some nice garbage'' you play with garbage for a bit
+    and get bored quickly. You clean yourself and move on.'
   description: looking at and playing with garbage
   character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
-  showAlways: 1
+  showAlways: 0
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
@@ -3110,9 +3186,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: "Jessica: I always want kitty. Mommy and daddy say no cuz I not a good
-    careta\u2026 care\u2026 I can\u2019t take care of it. Well\u2026 kitty here now.
-    Kitty mine. I call her Sprinclez. Sprinclez good name."
+  storyText: 'Jessica: Awww!! Pretty Kitty!!'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}

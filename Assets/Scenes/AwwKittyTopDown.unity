@@ -157,7 +157,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: RPGTesting
+    stringVal: LittleGirl
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &53095137
@@ -188,8 +188,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 228
-    y: 227
+    x: 229
+    y: 228
     width: 134
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -288,7 +288,8 @@ MonoBehaviour:
     height: 0
   selectedBlocks:
   - {fileID: 53095138}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 53095136}
   variables:
   - {fileID: 53095160}
   description: 
@@ -1226,7 +1227,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 10.86274
+  orthographic size: 14.819983
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1452,7 +1453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1756026221}
+  selectedFlowchart: {fileID: 53095156}
 --- !u!4 &912903173
 Transform:
   m_ObjectHideFlags: 1
@@ -1505,11 +1506,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4678101578738422, guid: 9fcc19129e8193e4b881c1bdc4b9814d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -57.6
+      value: -49.8
       objectReference: {fileID: 0}
     - target: {fileID: 4678101578738422, guid: 9fcc19129e8193e4b881c1bdc4b9814d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 91.9
+      value: 91.5
       objectReference: {fileID: 0}
     - target: {fileID: 4678101578738422, guid: 9fcc19129e8193e4b881c1bdc4b9814d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1541,7 +1542,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4678101578738422, guid: 9fcc19129e8193e4b881c1bdc4b9814d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 15.274342
+      value: 27.684744
       objectReference: {fileID: 0}
     - target: {fileID: 114034257819947328, guid: 9fcc19129e8193e4b881c1bdc4b9814d,
         type: 3}
@@ -2067,7 +2068,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1560750109}
   m_Layer: 0
-  m_Name: Fence
+  m_Name: Barriers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2090,6 +2091,7 @@ Transform:
   - {fileID: 537527796}
   - {fileID: 2039924719}
   - {fileID: 136405926}
+  - {fileID: 1818256968}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
@@ -2505,18 +2507,6 @@ MonoBehaviour:
   eventHandler: {fileID: 1756026219}
   commandList:
   - {fileID: 1756026218}
---- !u!114 &1756026221 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a,
-    type: 3}
-  m_PrefabInstance: {fileID: 1467668561}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1756026214}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1778912490 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 142980, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a,
@@ -2740,12 +2730,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1818256966}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -53.54, y: 114.54, z: 0}
-  m_LocalScale: {x: 76.14716, y: 38.96156, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 70.94001, y: 23.039993, z: 0}
+  m_LocalScale: {x: 76.14718, y: 38.961567, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 1560750109}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1818256969
 BoxCollider2D:

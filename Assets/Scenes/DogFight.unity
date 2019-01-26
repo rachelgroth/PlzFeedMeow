@@ -173,7 +173,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -424,15 +424,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: selectedCommands.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: scrollPos.x
-      value: 610.469
+      value: 266.6993
       objectReference: {fileID: 0}
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: scrollPos.y
-      value: -68.40277
+      value: 171.98907
       objectReference: {fileID: 0}
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: variables.Array.data[0]
@@ -445,7 +445,7 @@ PrefabInstance:
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: selectedBlocks.Array.data[0]
       value: 
-      objectReference: {fileID: 1739104181}
+      objectReference: {fileID: 1739104167}
     - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: variables.Array.data[2]
       value: 
@@ -470,6 +470,10 @@ PrefabInstance:
       propertyPath: variables.Array.data[5]
       value: 
       objectReference: {fileID: 1739104177}
+    - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
+      propertyPath: selectedBlocks.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: commandList.Array.size
       value: 2
@@ -1106,7 +1110,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 1
   key: Disapproval
-  value: 30
+  value: 50
 --- !u!114 &1739104167
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1321,7 +1325,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: "{$PlayerName} opens her mouth and lets out a big {color=pink}\"MRREEEOWWWWW!~\"{/color}\n
+  storyText: "{$PlayerName} opens her mouth and lets out a sharp {color=pink}\"HISSSSSSSSS\"{/color}\n
     {w=0.5}\n{i} Disapproval - 5 {/i}"
   description: 
   character: {fileID: 620745605}
@@ -1356,7 +1360,7 @@ MonoBehaviour:
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 6
-  blockName: Meow
+  blockName: Hiss
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -1443,7 +1447,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 0
   key: EnemyName
-  value: Jessica
+  value: Spike
 --- !u!114 &1739104178
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1487,6 +1491,7 @@ MonoBehaviour:
   - {fileID: 1739104242}
   - {fileID: 1739104184}
   - {fileID: 1739104243}
+  - {fileID: 1739104209}
   - {fileID: 1739104201}
 --- !u!114 &1739104180
 MonoBehaviour:
@@ -1502,7 +1507,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 66
   indentLevel: 0
-  storyText: "{$EnemyName} chases after the player and screams {color=red}\"KITTY!!!!!!!!!!\"{/color}\n
+  storyText: "{$EnemyName} growls menacingly at {$PlayerName} {color=red}\"GGGRRRRRR\"{/color}\n
     {w=0.5}\n{i} Cuteness - 5 {/i}"
   description: 
   character: {fileID: 703261287}
@@ -1531,13 +1536,13 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 656.1468
-    y: 273.36066
+    y: 268.88306
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 56
-  blockName: KITTY!
+  blockName: Growl
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -1730,8 +1735,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 609.4183
-    y: 159.02985
+    x: 612.4034
+    y: 150.07463
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2003,14 +2008,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 609.4703
-    y: 98.50746
+    x: 612.4553
+    y: 100
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 29
-  blockName: Belly
+  blockName: Claw
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -2033,8 +2038,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 21
   indentLevel: 0
-  storyText: '{$PlayerName} rolls over to expose her tender underbelly. Don''t you
-    want to touch it?
+  storyText: '{$PlayerName} pulls back her paw and swings, raking her claws at {$EnemyName}.
 
     {i} Disapproval - 15 {/i}'
   description: 
@@ -2455,6 +2459,24 @@ MonoBehaviour:
     vector3Val: {x: 0.25, y: 0, z: 0}
   space: 1
   offsetOLD: {x: 0, y: 0, z: 0}
+--- !u!114 &1739104209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739104165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 108
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 2
+  durationOLD: 0
 --- !u!114 &1739104211
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2586,7 +2608,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 350.66104
     y: -27.18357
-    width: 205
+    width: 190.29846
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2635,7 +2657,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 71
   indentLevel: 1
-  text: Show your belly
+  text: Protect Self
   description: 
   targetBlock: {fileID: 1739104195}
   hideIfVisited: 0
@@ -2660,7 +2682,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 70
   indentLevel: 1
-  text: Meow adorably
+  text: How dare you?
   description: 
   targetBlock: {fileID: 1739104175}
   hideIfVisited: 0
@@ -2774,7 +2796,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 51
   indentLevel: 1
-  text: Show your belly
+  text: Protect Self
   description: 
   targetBlock: {fileID: 1739104195}
   hideIfVisited: 0
@@ -2799,7 +2821,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 50
   indentLevel: 1
-  text: Meow adorably
+  text: How dare you?
   description: 
   targetBlock: {fileID: 1739104175}
   hideIfVisited: 0
@@ -2913,7 +2935,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 47
   indentLevel: 1
-  text: Show your belly
+  text: Protect Self
   description: 
   targetBlock: {fileID: 1739104195}
   hideIfVisited: 0
@@ -2938,7 +2960,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 46
   indentLevel: 1
-  text: Meow adorably
+  text: How dare you?
   description: 
   targetBlock: {fileID: 1739104175}
   hideIfVisited: 0
@@ -3089,9 +3111,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 86
   indentLevel: 0
-  storyText: "{color=red}\"PAT DA KITTY!\"{/color} {$EnemyName} lunges forward and
-    aggressively pats {$PlayerName}'s head, ruffling her fur in the process.\n {w=0.5}{i}
-    Cuteness - 20 {/i}"
+  storyText: "{color=red}\"YOU SHALL NOT PASS\"{/color} {$EnemyName} lifts his leg
+    and begins to draw a \"line in the rug\".\n {w=0.5}{i} Cuteness - 20 {/i}"
   description: 
   character: {fileID: 703261287}
   portrait: {fileID: 0}
@@ -3219,12 +3240,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 655.7015
     y: 400.3732
-    width: 120
+    width: 123.13431
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 97
-  blockName: Pats
+  blockName: Mark Territory
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -3268,8 +3289,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 80
   indentLevel: 0
-  storyText: "{$EnemyName} bursts into tears. {color=red}\"WHY WOWN'T KITTY PWAY WIF
-    ME!?\"{/color}\n {w=0.5}\n{i} Cuteness - 10 {/i}"
+  storyText: "{$EnemyName} lunges forward causing {$PlayerName} to jump away.\n {w=0.5}\n{i}
+    Cuteness - 10 {/i}"
   description: 
   character: {fileID: 703261287}
   portrait: {fileID: 0}
@@ -3367,7 +3388,7 @@ MonoBehaviour:
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 98
-  blockName: Cry
+  blockName: Pounce
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -3453,11 +3474,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 105
   indentLevel: 0
-  storyText: "\"I always want kitty. Mommy and daddy say no cuz I not a good careta\u2026
-    care\u2026 I can\u2019t take care of it. Well\u2026 kitty here now. {color=red}Kitty
-    {i}mine.{/i}{/color} I call her Sprinclez. Sprinclez good name.\""
+  storyText: '"You win {$PlayerName}, Ugh I''m getting to old for this."'
   description: 
-  character: {fileID: 620745605}
+  character: {fileID: 703261287}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3482,10 +3501,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 106
   indentLevel: 0
-  storyText: 'The little girl drags you off to be fed.
+  storyText: '{$EnemyName} lays down, you knead your paws in his fur an take a nap.
 
 
-    {b}{color=yellow}FOOD GET!{/color}{/b}'
+    {b}{color=yellow}NAP GET!{/color}{/b}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3530,7 +3549,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: nameText
-      value: Jessica
+      value: Spike
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: nameColor.r

@@ -453,7 +453,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: commandList.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: nodeRect.x
@@ -474,11 +474,11 @@ PrefabInstance:
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: commandList.Array.data[1]
       value: 
-      objectReference: {fileID: 1739104169}
+      objectReference: {fileID: 1739104168}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: commandList.Array.data[2]
       value: 
-      objectReference: {fileID: 1739104211}
+      objectReference: {fileID: 1739104169}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
 --- !u!1 &383203824
@@ -1734,6 +1734,42 @@ MonoBehaviour:
   itemId: 192
   indentLevel: 0
   loadingImage: {fileID: 0}
+--- !u!114 &1739104168
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739104165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 193
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'Spike:"Not one of {i}you{/i} dreadful creatures. He''s already got
+      man''s best friend, no room for stragglers...{b}BORF!{/b}"
+
+      Kitty:"Oh {b}hell{/b} no. This house is mine now, you can go ahead and leave."
+
+      Spike:"I don''t think so, furball. I could eat you for breakfast."
+
+      Kitty:"Alright, you big smelly bitch. Bring it on. You''re going {b}down{/b}."'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
 --- !u!114 &1739104169
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1831,6 +1867,34 @@ MonoBehaviour:
   scope: 1
   key: kittyTurn
   value: 1
+--- !u!114 &1739104174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739104165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 194
+  indentLevel: 0
+  storyText: A voice drifts from the other room. "Spike! Bad dog! Outside, now! Sorry
+    about that, kitty. " A man walks in as Spike skitters out through the doggy door.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1739104177
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1889,6 +1953,7 @@ MonoBehaviour:
   - {fileID: 1739104242}
   - {fileID: 1739104184}
   - {fileID: 1739104243}
+  - {fileID: 1739104174}
   - {fileID: 1739104209}
   - {fileID: 1739104201}
 --- !u!114 &1739104180
@@ -1905,8 +1970,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 66
   indentLevel: 0
-  storyText: "{$EnemyName} growls menacingly at {$PlayerName} {color=red}\"GGGRRRRRR\"{/color}\n
-    {w=0.5}\n{i} Cuteness - 5 {/i}"
+  storyText: "{$EnemyName} growls menacingly at {$PlayerName} {color=red}\"You're
+    going down, you stupid cat.\"{/color}\n {w=0.5}\n{i} Cuteness - 5 {/i}"
   description: 
   character: {fileID: 703261287}
   portrait: {fileID: 0}
@@ -2606,7 +2671,7 @@ MonoBehaviour:
   itemId: 86
   indentLevel: 0
   storyText: "{color=red}\"YOU SHALL NOT PASS\"{/color} {$EnemyName} lifts his leg
-    and begins to draw a \"line in the rug\".\n {w=0.5}{i} Cuteness - 20 {/i}"
+    and begins to draw a 'line in the rug'.\n {w=0.5}{i} Cuteness - 20 {/i}"
   description: 
   character: {fileID: 703261287}
   portrait: {fileID: 0}
@@ -2733,7 +2798,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 655.7015
-    y: 400.3732
+    y: 402.01254
     width: 130.32784
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2783,8 +2848,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 80
   indentLevel: 0
-  storyText: "{$EnemyName} lunges forward causing {$PlayerName} to jump away.\n {w=0.5}\n{i}
-    Cuteness - 10 {/i}"
+  storyText: "{$EnemyName} lunges forward causing {$PlayerName} to jump away. \"{b}GET
+    BACK HERE!{/b}\"\n {w=0.5}\n{i} Cuteness - 10 {/i}"
   description: 
   character: {fileID: 703261287}
   portrait: {fileID: 0}
@@ -2968,7 +3033,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 105
   indentLevel: 0
-  storyText: '"You win {$PlayerName}, Ugh I''m getting to old for this."'
+  storyText: '"You win {$PlayerName}, Ugh I''m getting too old for this."'
   description: 
   character: {fileID: 703261287}
   portrait: {fileID: 0}
@@ -2995,7 +3060,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 106
   indentLevel: 0
-  storyText: '{$EnemyName} lays down, you knead your paws in his fur an take a nap.
+  storyText: '{$EnemyName} lays down, and {$PlayerName} kneads her paws in his fur
+    and takes a nap.
 
 
     {b}{color=yellow}NAP GET!{/color}{/b}'

@@ -885,7 +885,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 53095144}
   selectedCommands:
-  - {fileID: 53095147}
+  - {fileID: 53095141}
   variables:
   - {fileID: 53095160}
   - {fileID: 53095146}
@@ -2558,7 +2558,7 @@ PrefabInstance:
     - target: {fileID: 114534288108544306, guid: 9fcc19129e8193e4b881c1bdc4b9814d,
         type: 3}
       propertyPath: commandList.Array.size
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 114534288108544306, guid: 9fcc19129e8193e4b881c1bdc4b9814d,
         type: 3}
@@ -2574,7 +2574,7 @@ PrefabInstance:
         type: 3}
       propertyPath: commandList.Array.data[1]
       value: 
-      objectReference: {fileID: 196955225}
+      objectReference: {fileID: 196955230}
     - target: {fileID: 114534288108544306, guid: 9fcc19129e8193e4b881c1bdc4b9814d,
         type: 3}
       propertyPath: nodeRect.y
@@ -2589,7 +2589,7 @@ PrefabInstance:
         type: 3}
       propertyPath: commandList.Array.data[2]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 196955231}
     - target: {fileID: 114534288108544306, guid: 9fcc19129e8193e4b881c1bdc4b9814d,
         type: 3}
       propertyPath: blockName
@@ -2598,8 +2598,13 @@ PrefabInstance:
     - target: {fileID: 114534288108544306, guid: 9fcc19129e8193e4b881c1bdc4b9814d,
         type: 3}
       propertyPath: nodeRect.width
-      value: 120
+      value: 132
       objectReference: {fileID: 0}
+    - target: {fileID: 114534288108544306, guid: 9fcc19129e8193e4b881c1bdc4b9814d,
+        type: 3}
+      propertyPath: commandList.Array.data[3]
+      value: 
+      objectReference: {fileID: 196955225}
     - target: {fileID: 212708722285412346, guid: 9fcc19129e8193e4b881c1bdc4b9814d,
         type: 3}
       propertyPath: m_Enabled
@@ -2723,8 +2728,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: '"That is one fancy house! Hey look! the door''s open! Let''s see who
-    lives inside this mansion!"
+  storyText: '{$PlayerName} stares in awe. "That is one fancy house... hey look, the
+    door''s open! Let''s see who lives inside this mansion!"
 
 '
   description: 
@@ -2755,6 +2760,63 @@ MonoBehaviour:
   tagFilter:
   - Player
   FireOn: 1
+--- !u!114 &196955229 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114600625297110402, guid: 9fcc19129e8193e4b881c1bdc4b9814d,
+    type: 3}
+  m_PrefabInstance: {fileID: 196955222}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196955224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &196955230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196955224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 4
+  indentLevel: 0
+  sayDialog: {fileID: 1015200776}
+--- !u!114 &196955231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196955224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3
+  indentLevel: 0
+  storyText: '{$PlayerName} trots through the seemingly glowing open door of this
+    fancy modern home.
+
+'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 0
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &202363790
 GameObject:
   m_ObjectHideFlags: 0
@@ -9973,7 +10035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 2117275493}
+  selectedFlowchart: {fileID: 196955229}
 --- !u!4 &912903173
 Transform:
   m_ObjectHideFlags: 1
@@ -23057,18 +23119,6 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 58545323045532278, guid: 4ecd3eccefa01ca4da38d03c8e7c2a8d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4ecd3eccefa01ca4da38d03c8e7c2a8d, type: 3}
---- !u!114 &2117275493 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114126325013622294, guid: 4ecd3eccefa01ca4da38d03c8e7c2a8d,
-    type: 3}
-  m_PrefabInstance: {fileID: 2117275492}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1085268948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2118505882
 GameObject:
   m_ObjectHideFlags: 0

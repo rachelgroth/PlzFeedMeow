@@ -1039,8 +1039,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 384.58698
-    y: 282.37427
+    x: 384.58694
+    y: 284.0984
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1988,9 +1988,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 165
   indentLevel: 0
-  storyText: "{i}\"Caviar?! Hell yeah! *eats a little bit of it* This still doesn\u2019t
-    taste right. This house is nice, but it\u2019s not my home\u2026 Maybe my original
-    owner has the right food\u2026 I\u2019ll go check.\"{/i} "
+  storyText: "{i}\"Caviar?! Hell yeah!{/i}\n{$PlayerName} begins to chow down. {wc}{i}
+    This still doesn\u2019t taste right. This house is nice, but it\u2019s not my
+    home\u2026 Maybe my original owner has the right food\u2026 I\u2019ll go check!\"{/i} "
   description: 
   character: {fileID: 39188774}
   portrait: {fileID: 0}
@@ -2017,8 +2017,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 106
   indentLevel: 0
-  storyText: "The large loud man reaches down and scratches {$PlayerName}'s ears.
-    \n\n{b}{color=yellow}FOOD GET!{/color}{/b}"
+  storyText: 'The large loud man reaches down and scratches {$PlayerName}''s ears,
+    setting down a small tin.
+
+
+    {b}{color=yellow}FOOD GET!{/color}{/b}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2045,7 +2048,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 107
   indentLevel: 0
-  sayDialog: {fileID: 0}
+  sayDialog: {fileID: 1191503686}
 --- !u!114 &914571272
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2906,7 +2909,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 625.33246
     y: 93.33504
-    width: 139.65514
+    width: 139.65515
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4288,7 +4291,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 350.66104
     y: -27.18357
-    width: 193.1034
+    width: 193.10341
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4756,8 +4759,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 169
   indentLevel: 0
-  storyText: "\"This is a very nice house. This guy\u2019s gotta have the best food
-    ever! I\u2019m never gonna be hungry here!\""
+  storyText: "\"This is a very nice house. This guy\u2019s gotta have the {i}best{/i}
+    food ever! I\u2019m never gonna be hungry here!\""
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5150,6 +5153,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a005a9e0713f4cc1b5ad29fb07657d3, type: 3}
+--- !u!114 &1191503686 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 11488894, guid: 8a005a9e0713f4cc1b5ad29fb07657d3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1191503685}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a0bbe22c246e4c78ad8e9816cbae9d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1207794450 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c,

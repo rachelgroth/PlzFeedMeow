@@ -959,7 +959,7 @@ PrefabInstance:
       objectReference: {fileID: 1739104168}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: commandList.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: nodeRect.x
@@ -983,6 +983,10 @@ PrefabInstance:
       objectReference: {fileID: 1739104284}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: commandList.Array.data[2]
+      value: 
+      objectReference: {fileID: 1739104244}
+    - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
+      propertyPath: commandList.Array.data[3]
       value: 
       objectReference: {fileID: 1739104169}
     m_RemovedComponents: []
@@ -1969,9 +1973,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 66
   indentLevel: 0
-  storyText: "\u201CNot really happy that you\u2019re here. Where\u2019s your owner?\u201D
-    {$EnemyName} glares at the fluffy cat, seemingly annoyed.\n{w=0.5}{i} Cuteness
-    - 5 {/i}"
+  storyText: "\u201CI'm not really happy that you\u2019re here. Where\u2019s your
+    owner?\u201D {$EnemyName} glares at the fluffy cat, seemingly annoyed.\n{w=0.5}{i}
+    Cuteness - 5 {/i}"
   description: 
   character: {fileID: 703261287}
   portrait: {fileID: 0}
@@ -2939,8 +2943,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 165
   indentLevel: 0
-  storyText: '{i}"Yes, finally! . . . wait, this is garbage! This is not what I''m
-    looking for...better get back out there!"{/i} '
+  storyText: '{i}"Yes, finally! . . . wait, this is garbage too?! This is not what
+    I''m looking for... better get back out there!"{/i} '
   description: 
   character: {fileID: 620745605}
   portrait: {fileID: 0}
@@ -3094,7 +3098,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 350.66104
     y: -27.18357
-    width: 193.1034
+    width: 193.10338
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3696,7 +3700,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 660.6423
     y: 400.3732
-    width: 143.10342
+    width: 143.1034
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3933,8 +3937,7 @@ MonoBehaviour:
   storyText: "\"You know, I\u2019m not sure where this cat came from. Not the happiest
     that it\u2019s here. Kinda cramping my style as a dog owner. {wc}Might lower my
     cred with the other dog owners on this block if they see me feeding this little
-    cat. She is kinda cute, though. Maybe just a little food won\u2019t hurt.\"{wc}\"I
-    guess I\u2019ve got some food for you. Here you go.\""
+    cat. She is kinda cute, though... Maybe just a little food won\u2019t hurt.\""
   description: 
   character: {fileID: 703261287}
   portrait: {fileID: 0}
@@ -3964,6 +3967,33 @@ MonoBehaviour:
   storyText: "The man beckons {$PlayerName} inside. \n\n{b}{color=yellow}FOOD GET!{/color}{/b}"
   description: 
   character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1739104244
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739104165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 167
+  indentLevel: 0
+  storyText: '"I know~"'
+  description: 
+  character: {fileID: 620745605}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4286,7 +4316,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 625.33246
     y: 93.33504
-    width: 139.65514
+    width: 139.65512
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5621,8 +5651,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 108
   indentLevel: 0
-  storyText: "\"Spike! Bad dog! Outside, now! Sorry about that, kitty. Hm\u2026 you\u2019re
-    kinda cute, I guess\""
+  storyText: "\"Hm\u2026 you\u2019re kind of a cute kitty, I guess.\""
   description: 
   character: {fileID: 703261287}
   portrait: {fileID: 0}

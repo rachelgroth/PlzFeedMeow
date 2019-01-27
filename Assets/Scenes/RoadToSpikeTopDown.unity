@@ -434,7 +434,8 @@ MonoBehaviour:
   itemId: 41
   indentLevel: 0
   storyText: "\"Oh, thank Bastet I\u2019m out of there. That girl could\u2019ve killed
-    me with her pats! Hopefully the next place is better for me.\""
+    me with her pats! Hopefully this next place is better for me...I think I see some
+    cat toys!\""
   description: 
   character: {fileID: 715463819}
   portrait: {fileID: 0}
@@ -591,8 +592,10 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 53095142}
+  selectedCommands:
+  - {fileID: 53095140}
   variables:
   - {fileID: 53095160}
   - {fileID: 53095144}
@@ -1485,7 +1488,7 @@ MonoBehaviour:
     stringRef: {fileID: 0}
     stringVal: 'Kitty: Oh no...
 
-      Spike: Oh look, someone brought me a snack! {b}BORF{/b}'
+      Spike: Oh look, someone brought me a snack! {b}BORF!{/b}'
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -6210,6 +6213,10 @@ PrefabInstance:
     - target: {fileID: 467082, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
+      propertyPath: selectedBlocks.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: eventHandler

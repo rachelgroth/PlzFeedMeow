@@ -868,7 +868,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &914571235
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1971,7 +1971,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: YouWin
+    stringVal: Ending
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &914571269
@@ -2909,7 +2909,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 625.33246
     y: 93.33504
-    width: 139.65515
+    width: 139.65514
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4291,7 +4291,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 350.66104
     y: -27.18357
-    width: 193.10341
+    width: 193.1034
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5858,10 +5858,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: KittyBattleMenu
       objectReference: {fileID: 0}
-    - target: {fileID: 11415124, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 3}
-      propertyPath: autoSelectFirstButton
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 22415102, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -5945,6 +5941,10 @@ PrefabInstance:
     - target: {fileID: 22415102, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11415124, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 3}
+      propertyPath: autoSelectFirstButton
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22470986, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 3}
       propertyPath: m_AnchoredPosition.y

@@ -1943,8 +1943,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 386.35828
-    y: 402.47745
+    x: 384.63412
+    y: 400.7533
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1979,7 +1979,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 703261287}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: fd98d8acfdce9d540b7747c0a1409ae3, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2723,7 +2723,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: FuckCats
+    stringVal: RoadToSergei
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &1739104202
@@ -3576,7 +3576,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 703261287}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: aa0805e9ea204554695ed9484f72ebac, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -3754,7 +3754,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 703261287}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 122213cdaa2697b4aa4e90d7a94c56ac, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -3941,14 +3941,14 @@ MonoBehaviour:
   description: 
   character: {fileID: 703261287}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 61012957f6afdb6488683af79cc58ba5, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
   waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
+  stopVoiceover: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &1739104243
 MonoBehaviour:
@@ -5655,7 +5655,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 703261287}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: f81dae8b7191a9846b7a145ff5afc2a6, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0

@@ -1752,7 +1752,7 @@ MonoBehaviour:
   loadingImage: {fileID: 0}
 --- !u!114 &1739104168
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1893,7 +1893,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 2033181353754ce43a81b3b851d91e0c, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1904,7 +1904,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1739104175
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1920,7 +1920,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: b734b7da68ffa954790446fb916f8651, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1931,7 +1931,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1739104176
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2128,7 +2128,7 @@ MonoBehaviour:
   sayDialog: {fileID: 1159168328}
 --- !u!114 &1739104185
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2765,7 +2765,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 703261287}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 8cf3bdd6ac3d6c14cbb37f55f66f3dd0, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2943,7 +2943,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 703261287}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: c92af5a9687521347951b8ded68a7cd2, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -3127,7 +3127,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 703261287}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: dd3222f1d78b3ae45a52e6e260f24788, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0

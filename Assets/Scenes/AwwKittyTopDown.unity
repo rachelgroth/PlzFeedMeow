@@ -343,13 +343,13 @@ MonoBehaviour:
   description: 
   character: {fileID: 616414877}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 4d9316af3fea3474386410c197b54229, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
   waitForClick: 1
-  stopVoiceover: 1
+  stopVoiceover: 0
   waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &53095141
@@ -465,7 +465,7 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 53095162}
+  - {fileID: 53095138}
   selectedCommands: []
   variables:
   - {fileID: 53095160}
@@ -2562,18 +2562,6 @@ CircleCollider2D:
   m_Offset: {x: -0.0583992, y: -0.01946958}
   serializedVersion: 2
   m_Radius: 3.5755017
---- !u!114 &647241989 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a,
-    type: 3}
-  m_PrefabInstance: {fileID: 1743737481}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 647241982}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &647241990
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3167,7 +3155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 647241989}
+  selectedFlowchart: {fileID: 114600625410538598}
 --- !u!4 &912903173
 Transform:
   m_ObjectHideFlags: 1
@@ -6580,7 +6568,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1260107138}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: ffc6a01a7e2430245a9233dee842e279, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -7173,7 +7161,8 @@ MonoBehaviour:
     height: 0
   selectedBlocks:
   - {fileID: 114534289029277910}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 2123014934}
   variables: []
   description: opens rpg fight scene
   stepPause: 0

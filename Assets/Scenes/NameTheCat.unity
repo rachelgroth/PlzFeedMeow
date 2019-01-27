@@ -444,11 +444,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 254, y: 75}
+  scrollPos: {x: 623.9376, y: 16.623957}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 1
+  zoom: 0.8200002
   scrollViewRect:
     serializedVersion: 2
     x: -378
@@ -457,7 +457,8 @@ MonoBehaviour:
     height: 1069
   selectedBlocks:
   - {fileID: 163283984}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 163283994}
   variables:
   - {fileID: 163283985}
   description: 'This example shows how to write to a 3D Text Mesh using
@@ -547,7 +548,7 @@ MonoBehaviour:
   _sceneName:
     stringRef: {fileID: 0}
     stringVal: Tutorial
-  loadingImage: {fileID: 2800000, guid: e5972a748d545054e9c657647c5975f2, type: 3}
+  loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!4 &163283987
 Transform:
@@ -697,7 +698,7 @@ MonoBehaviour:
   textObject: {fileID: 2084085583}
   text:
     stringRef: {fileID: 0}
-    stringVal: Mreow! {$PlayerName} I Love it!
+    stringVal: Mreow! {$PlayerName}? I love it!
   description: 
   clearText: 1
   waitUntilFinished: 1
@@ -798,8 +799,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 42
-    y: 179
+    x: 43.219513
+    y: 182.65854
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1295,7 +1296,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
+  m_BackGroundColor: {r: 0.9339623, g: 0.6123621, b: 0.62352943, a: 0.019607844}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}

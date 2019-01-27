@@ -465,7 +465,7 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 53095138}
+  - {fileID: 53095162}
   selectedCommands: []
   variables:
   - {fileID: 53095160}
@@ -2562,6 +2562,18 @@ CircleCollider2D:
   m_Offset: {x: -0.0583992, y: -0.01946958}
   serializedVersion: 2
   m_Radius: 3.5755017
+--- !u!114 &647241989 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1743737481}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647241982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &647241990
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3155,7 +3167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 114126325379637618}
+  selectedFlowchart: {fileID: 647241989}
 --- !u!4 &912903173
 Transform:
   m_ObjectHideFlags: 1

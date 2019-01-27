@@ -22,6 +22,7 @@ public class ontrigger3d : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D collision)
     {
         //Flowchart.BroadcastFungusMessage("BossEncounter");
-        flow.ExecuteBlock("Trigger");
+        if(collision.tag == "Player")
+            flow.ExecuteBlock("Trigger");
     }
 }

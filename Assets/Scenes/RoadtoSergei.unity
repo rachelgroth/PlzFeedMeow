@@ -138,6 +138,8 @@ GameObject:
   - component: {fileID: 53095142}
   - component: {fileID: 53095141}
   - component: {fileID: 53095140}
+  - component: {fileID: 53095147}
+  - component: {fileID: 53095146}
   m_Layer: 0
   m_Name: GameRules
   m_TagString: Untagged
@@ -220,7 +222,7 @@ MonoBehaviour:
   message: BossEncounter
 --- !u!114 &53095140
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -235,7 +237,7 @@ MonoBehaviour:
   sayDialog: {fileID: 1015200776}
 --- !u!114 &53095141
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -263,7 +265,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &53095142
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -298,7 +300,7 @@ MonoBehaviour:
   callMode: 1
 --- !u!114 &53095144
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -323,6 +325,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 53095141}
   - {fileID: 53095140}
+  - {fileID: 53095147}
 --- !u!114 &53095145
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -350,6 +353,37 @@ MonoBehaviour:
   commandList:
   - {fileID: 53095143}
   - {fileID: 53095166}
+--- !u!114 &53095146
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53095135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4580f28dd8581476b810b38eea2f1316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  key: PlayerName
+  value: 
+--- !u!114 &53095147
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53095135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c657364a3b24e16bdf5946729a8b7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 43
+  indentLevel: 0
+  key: PlayerName
+  variable: {fileID: 53095146}
 --- !u!114 &53095156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -377,9 +411,10 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 53095144}
   selectedCommands:
-  - {fileID: 53095140}
+  - {fileID: 53095147}
   variables:
   - {fileID: 53095160}
+  - {fileID: 53095146}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -2028,18 +2063,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &647241985 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a,
-    type: 3}
-  m_PrefabInstance: {fileID: 1743737481}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 647241982}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &647241986
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2158,7 +2181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 647241985}
+  selectedFlowchart: {fileID: 53095156}
 --- !u!4 &912903173
 Transform:
   m_ObjectHideFlags: 1

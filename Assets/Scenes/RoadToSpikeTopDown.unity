@@ -258,6 +258,8 @@ GameObject:
   - component: {fileID: 53095142}
   - component: {fileID: 53095141}
   - component: {fileID: 53095140}
+  - component: {fileID: 53095146}
+  - component: {fileID: 53095144}
   m_Layer: 0
   m_Name: GameRules
   m_TagString: Untagged
@@ -395,7 +397,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 63
-    y: 79
+    y: 80
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -406,6 +408,7 @@ MonoBehaviour:
   eventHandler: {fileID: 53095141}
   commandList:
   - {fileID: 53095140}
+  - {fileID: 53095146}
 --- !u!114 &53095143
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -427,6 +430,21 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 1
+--- !u!114 &53095144
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53095135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4580f28dd8581476b810b38eea2f1316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  key: PlayerName
+  value: 
 --- !u!114 &53095145
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -454,6 +472,22 @@ MonoBehaviour:
   commandList:
   - {fileID: 53095143}
   - {fileID: 53095166}
+--- !u!114 &53095146
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53095135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c657364a3b24e16bdf5946729a8b7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 43
+  indentLevel: 0
+  key: PlayerName
+  variable: {fileID: 53095144}
 --- !u!114 &53095156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -480,9 +514,11 @@ MonoBehaviour:
     height: 0
   selectedBlocks:
   - {fileID: 53095142}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 53095146}
   variables:
   - {fileID: 53095160}
+  - {fileID: 53095144}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -1123,18 +1159,6 @@ MonoBehaviour:
   parentBlock: {fileID: 196955226}
   tagFilter: []
   FireOn: 1
---- !u!114 &196955229 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114600625297110402, guid: 9fcc19129e8193e4b881c1bdc4b9814d,
-    type: 3}
-  m_PrefabInstance: {fileID: 196955222}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 196955224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &220972619
 GameObject:
   m_ObjectHideFlags: 0
@@ -2119,7 +2143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 196955229}
+  selectedFlowchart: {fileID: 53095156}
 --- !u!4 &912903173
 Transform:
   m_ObjectHideFlags: 1

@@ -456,9 +456,8 @@ MonoBehaviour:
     width: 1243
     height: 1069
   selectedBlocks:
-  - {fileID: 163283992}
-  selectedCommands:
-  - {fileID: 163283991}
+  - {fileID: 163283984}
+  selectedCommands: []
   variables:
   - {fileID: 163283985}
   description: 'This example shows how to write to a 3D Text Mesh using

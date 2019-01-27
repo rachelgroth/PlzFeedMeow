@@ -1675,7 +1675,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 0
   key: o6cd
-  value: 2
+  value: 0
 --- !u!114 &1739104169
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2998,7 +2998,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 0
   key: o5cd
-  value: 0
+  value: 1
 --- !u!114 &1739104213
 MonoBehaviour:
   m_ObjectHideFlags: 2

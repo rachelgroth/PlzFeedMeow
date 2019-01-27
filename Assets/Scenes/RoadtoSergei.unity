@@ -2760,18 +2760,6 @@ MonoBehaviour:
   tagFilter:
   - Player
   FireOn: 1
---- !u!114 &196955229 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114600625297110402, guid: 9fcc19129e8193e4b881c1bdc4b9814d,
-    type: 3}
-  m_PrefabInstance: {fileID: 196955222}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 196955224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &196955230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7663,6 +7651,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &647241985 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1743737481}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647241982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!58 &647241986
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10035,7 +10035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 196955229}
+  selectedFlowchart: {fileID: 647241985}
 --- !u!4 &912903173
 Transform:
   m_ObjectHideFlags: 1
@@ -14971,7 +14971,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 6f62c397230d6d845b87a8e53d67c0e1, type: 3}
   m_Color: {r: 0.20000002, g: 0.21176472, b: 0.227451, a: 1}
   m_FlipX: 0

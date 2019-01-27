@@ -1943,8 +1943,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 386.35828
-    y: 402.47745
+    x: 384.63412
+    y: 400.7533
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2723,7 +2723,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: FuckCats
+    stringVal: RoadToSergei
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &1739104202
@@ -5970,10 +5970,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: KittyBattleMenu
       objectReference: {fileID: 0}
-    - target: {fileID: 11415124, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 3}
-      propertyPath: autoSelectFirstButton
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 22415102, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -6057,6 +6053,10 @@ PrefabInstance:
     - target: {fileID: 22415102, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11415124, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 3}
+      propertyPath: autoSelectFirstButton
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22470986, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 3}
       propertyPath: m_AnchoredPosition.y

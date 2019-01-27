@@ -17,4 +17,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LittleGirl.unity
     guid: 90c440cde7504654e90e348011b98a14
+  - enabled: 1
+    path: Assets/Scenes/DogOwner.unity
+    guid: 1e9a409e7adcadd40b54a4b02d00486d
+  - enabled: 1
+    path: Assets/Scenes/DogFight.unity
+    guid: b78d36715caef69478b98d081bab47bc
+  - enabled: 1
+    path: Assets/Scenes/AwwKittyTopDown.unity
+    guid: cde2481b3e9c9974e982af2caa14f14c
+  - enabled: 1
+    path: Assets/Scenes/FuckCats.unity
+    guid: cf0c9f7d19006ae4c8e67d6b7e2276c6
   m_configObjects: {}

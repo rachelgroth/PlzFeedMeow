@@ -531,7 +531,7 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 53095138}
+  - {fileID: 53095142}
   selectedCommands: []
   variables:
   - {fileID: 53095160}
@@ -1668,15 +1668,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 467082, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 19.2
+      value: 6.8
       objectReference: {fileID: 0}
     - target: {fileID: 467082, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 59.7
+      value: 68.9
       objectReference: {fileID: 0}
     - target: {fileID: 467082, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.3
+      value: 8.3
       objectReference: {fileID: 0}
     - target: {fileID: 467082, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2621,8 +2621,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 68
-    y: 71
+    x: 69
+    y: 73
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2632,6 +2632,7 @@ MonoBehaviour:
   description: chase some birbs
   eventHandler: {fileID: 647241990}
   commandList:
+  - {fileID: 647241991}
   - {fileID: 647241993}
 --- !u!58 &647241988
 CircleCollider2D:
@@ -2664,6 +2665,21 @@ MonoBehaviour:
   parentBlock: {fileID: 647241987}
   tagFilter: []
   FireOn: 1
+--- !u!114 &647241991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647241982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 6
+  indentLevel: 0
+  sayDialog: {fileID: 1408411825}
 --- !u!114 &647241993
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3013,6 +3029,18 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &864193598 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a,
+    type: 3}
+  m_PrefabInstance: {fileID: 431242755}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864193592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &864193599
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3242,7 +3270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 964610534}
+  selectedFlowchart: {fileID: 864193598}
 --- !u!4 &912903173
 Transform:
   m_ObjectHideFlags: 1
@@ -3509,18 +3537,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &964610534 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114600625297110402, guid: 9fcc19129e8193e4b881c1bdc4b9814d,
-    type: 3}
-  m_PrefabInstance: {fileID: 964610532}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2123014927}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &983846691
@@ -7014,7 +7030,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2123014927}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c23faba06619da442a984c0c71a87df4, type: 3}
+  m_Script: {fileID: 11500000, guid: 78c1a9f24ac376a47838385391f83acc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 964610533}

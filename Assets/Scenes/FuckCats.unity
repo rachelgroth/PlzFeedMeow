@@ -124,6 +124,10 @@ PrefabInstance:
       value: KittyCharacter
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: portraits.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: nameText
       value: Kitty
       objectReference: {fileID: 0}
@@ -143,6 +147,36 @@ PrefabInstance:
       propertyPath: setSayDialog
       value: 
       objectReference: {fileID: 444094324}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: portraits.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: fdaf647fc2d8e6a42a4ecc166446e30a,
+        type: 3}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: portraits.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 5890684ccbb430442a2436e5c863753a,
+        type: 3}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: portraits.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: ab08bf0673fe52240a84e0ae0bb53a8d,
+        type: 3}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: portraits.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: 0930cdf6afe38bd4d969dacc4e521210,
+        type: 3}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: portraits.Array.data[5]
+      value: 
+      objectReference: {fileID: 21300000, guid: 584ffe97e9a2fa747bcc19d76b83ef73,
+        type: 3}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: portraits.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: 3a839289afbc83e4b80618e3599f089f,
+        type: 3}
     - target: {fileID: 400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -806,8 +840,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 914571239}
+  selectedCommands:
+  - {fileID: 914571277}
   variables:
   - {fileID: 914571233}
   - {fileID: 914571232}
@@ -2873,7 +2909,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 39188774}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 329024384f180794d9a09bd889d800c4, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -3129,8 +3165,8 @@ MonoBehaviour:
 
     {i} Cuteness: +40{/i}'
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 39188774}
+  portrait: {fileID: 21300000, guid: 584ffe97e9a2fa747bcc19d76b83ef73, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3496,8 +3532,8 @@ MonoBehaviour:
 
     {i} Disapproval: -30 {/i}'
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 39188774}
+  portrait: {fileID: 21300000, guid: 3a839289afbc83e4b80618e3599f089f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3879,8 +3915,8 @@ MonoBehaviour:
 
     {i} Disapproval: -20 {/i}'
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 39188774}
+  portrait: {fileID: 21300000, guid: ab08bf0673fe52240a84e0ae0bb53a8d, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4263,8 +4299,8 @@ MonoBehaviour:
 
     {i} Disapproval: -15 {/i}'
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 39188774}
+  portrait: {fileID: 21300000, guid: 0930cdf6afe38bd4d969dacc4e521210, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5014,8 +5050,8 @@ MonoBehaviour:
   storyText: "{$PlayerName} flicks her tail back and forth and purrs.\n {w=0.5}\n{i}
     Disapproval: -5 {/i}"
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 39188774}
+  portrait: {fileID: 21300000, guid: fdaf647fc2d8e6a42a4ecc166446e30a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5648,7 +5684,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: f7330cdbd3bfe76498ec391e0b12be01, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -5727,7 +5763,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 296162d77da6332419ef4b92379b5b8b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 10.8, y: 19.2}
@@ -6831,6 +6867,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: KittyBattleMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 11415124, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 3}
+      propertyPath: autoSelectFirstButton
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 22415102, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -6914,10 +6954,6 @@ PrefabInstance:
     - target: {fileID: 22415102, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 3}
       propertyPath: m_Pivot.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11415124, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 3}
-      propertyPath: autoSelectFirstButton
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22470986, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 3}
       propertyPath: m_AnchoredPosition.y

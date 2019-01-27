@@ -144,6 +144,8 @@ GameObject:
   - component: {fileID: 53095150}
   - component: {fileID: 53095149}
   - component: {fileID: 53095148}
+  - component: {fileID: 53095153}
+  - component: {fileID: 53095152}
   m_Layer: 0
   m_Name: GameRules
   m_TagString: Untagged
@@ -333,6 +335,8 @@ MonoBehaviour:
   - {fileID: 53095140}
   - {fileID: 53095141}
   - {fileID: 53095147}
+  - {fileID: 53095153}
+  - {fileID: 53095152}
 --- !u!114 &53095145
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -503,6 +507,43 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &53095152
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53095135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 49
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Credits
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &53095153
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53095135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 48
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 5
+  durationOLD: 0
 --- !u!114 &53095156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -530,7 +571,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 53095144}
   selectedCommands:
-  - {fileID: 53095151}
+  - {fileID: 53095152}
   variables:
   - {fileID: 53095160}
   - {fileID: 53095146}

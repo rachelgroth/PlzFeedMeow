@@ -465,7 +465,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 124.6, y: -125.5}
+  m_AnchoredPosition: {x: 124.55, y: -125.5}
   m_SizeDelta: {x: 249.1, y: 285}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &291560038
@@ -492,7 +492,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: 8eaf838689e187844ad8c15fa27e1331, type: 3}
     m_FontSize: 18
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 0
     m_MaxSize: 195
     m_Alignment: 2
@@ -500,7 +500,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1.25
+    m_LineSpacing: 1.3
   m_Text: "Design Lead\nArt Lead\nAudio Lead\nNarrative Lead\nProgramming Lead\nProgramming
     Co-Lead\nNarrative & Art\nArt & Utility\nProgramming \nVoice"
 --- !u!222 &291560039
@@ -545,7 +545,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -105.29999, y: -125.49}
+  m_AnchoredPosition: {x: -105.3, y: -125.5}
   m_SizeDelta: {x: 210.6, y: 285.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &303588154
@@ -572,7 +572,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: 8eaf838689e187844ad8c15fa27e1331, type: 3}
     m_FontSize: 18
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 0

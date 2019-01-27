@@ -24,4 +24,9 @@ public class LevelControl : MonoBehaviour
         Debug.Log("Quit the Game");
         Application.Quit();
     }
+
+    public void GoCredits()
+    {
+        SceneManager.LoadScene("Credits");
+    }
 }

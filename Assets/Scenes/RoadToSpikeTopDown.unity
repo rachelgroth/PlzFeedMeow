@@ -4625,7 +4625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 114600625171495380}
+  selectedFlowchart: {fileID: 1085268950}
 --- !u!4 &912903173
 Transform:
   m_ObjectHideFlags: 1
@@ -5165,6 +5165,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abf9e2e4334293449850759c812dd9db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1085268950 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114126325013622294, guid: 4ecd3eccefa01ca4da38d03c8e7c2a8d,
+    type: 3}
+  m_PrefabInstance: {fileID: 2117275492}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085268948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1085268951 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114862459103620794, guid: 4ecd3eccefa01ca4da38d03c8e7c2a8d,
@@ -5237,6 +5249,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59927941e3d79be4dac4408058904465, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1085268963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085268948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b95b5c1c3996ae498d2c1c0d460e234, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &1085268964
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085268948}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a2cfc5527f83377449e99cc898c08606, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!61 &1085268966
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10399,11 +10442,6 @@ PrefabInstance:
       propertyPath: keyCodeNegative
       value: 274
       objectReference: {fileID: 0}
-    - target: {fileID: 114126325013622294, guid: 4ecd3eccefa01ca4da38d03c8e7c2a8d,
-        type: 3}
-      propertyPath: selectedBlocks.Array.size
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 50485926042586766, guid: 4ecd3eccefa01ca4da38d03c8e7c2a8d,
         type: 3}
       propertyPath: m_Mass
@@ -10463,6 +10501,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114126325013622294, guid: 4ecd3eccefa01ca4da38d03c8e7c2a8d,
+        type: 3}
+      propertyPath: selectedBlocks.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 114128824974302672, guid: 4ecd3eccefa01ca4da38d03c8e7c2a8d,
         type: 3}
       propertyPath: keyCode
@@ -10481,17 +10524,17 @@ PrefabInstance:
     - target: {fileID: 212462972284088668, guid: 4ecd3eccefa01ca4da38d03c8e7c2a8d,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.764151
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 212462972284088668, guid: 4ecd3eccefa01ca4da38d03c8e7c2a8d,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.33521715
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 212462972284088668, guid: 4ecd3eccefa01ca4da38d03c8e7c2a8d,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.47248402
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 212462972284088668, guid: 4ecd3eccefa01ca4da38d03c8e7c2a8d,
         type: 3}
